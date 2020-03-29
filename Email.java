@@ -53,15 +53,23 @@ public class Email {
     {
       if (emailid.equals("blank")) {
         System.out.println("Error 4041: Email ID not found.");
+        System.exit(0);
       }
       if (password.equals("blank")) {
         System.out.println("Error 4042: Password not found.");
+        System.exit(0);
       }
       if (toemail.equals("blank")) {
         System.out.printnl("Error 4043: Reciptent not found");
+        System.exit(0);
       }
       if (subject.equals("blank")) {
         System.out.println("Error 4044: Subject not found");
+        System.exit(0);
+      }
+      if (emailmessage.equals("blank")) {
+        System.out.println("Error 4045: Message not found");
+        System.exit(0);
       }
     }
 
