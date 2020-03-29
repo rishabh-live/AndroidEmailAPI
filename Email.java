@@ -6,6 +6,7 @@ public class Email {
     String emailmessage = "blank";
     String toemail = "blank";
     String htmlMail = "notavailable";
+    String sendotp = "no";
 
     public String EmailId(final String email) {
 
@@ -35,6 +36,11 @@ public class Email {
     public String HtmlMail(final String htmlmail){
       htmlMail = htmlmail;
       return htmlMail;
+    }
+
+    public String SendOtp(String send){
+      sendotp = send;
+      return sendotp;
     }
 
 }
