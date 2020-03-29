@@ -60,6 +60,9 @@ public class Email {
       if (toemail.equals("blank")) {
         System.out.printnl("Error 4043: Reciptent not found");
       }
+      if (subject.equals("blank")) {
+        System.out.println("Error 4044: Subject not found");
+      }
     }
 
 }
