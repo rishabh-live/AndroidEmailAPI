@@ -5,6 +5,7 @@ public class Email {
     String emailpassword = "blank";
     String emailmessage = "blank";
     String toemail = "blank";
+    String htmlMail = "notavailable";
 
     public String EmailId(final String email) {
 
@@ -29,6 +30,11 @@ public class Email {
     public String ToEmail(final String to){
         toemail = to;
         return toemail;
+
+
+    public String HtmlMail(final String htmlmail){
+      htmlMail = htmlmail;
+      return htmlMail;
     }
 
 }
