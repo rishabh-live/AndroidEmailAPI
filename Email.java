@@ -17,5 +17,9 @@ public class Email{
     this.MobileNo = no;
   }
 
+  public void send(){
+    
+  }
+
   
 }
