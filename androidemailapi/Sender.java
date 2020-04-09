@@ -3,7 +3,6 @@ package androidemailapi;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
@@ -25,7 +24,7 @@ public class Sender extends Thread {
         try {
             sendGET();
         } catch (final IOException e) {
-            // TODO Auto-generated catch block
+            
             e.printStackTrace();
         }
         System.out.println("GET DONE");
