@@ -1,4 +1,3 @@
-
 public class Email {
 
     String emailid = "blank";
@@ -7,12 +6,11 @@ public class Email {
     String toemail = "blank";
     String htmlMail = "notavailable";
     String sendotp = "no";
-    String subject = "blank"
+    String subject = "blank";
 
     public String EmailId(final String email) {
 
-        emailid = email;
-        return emailid;
+        this.emailid;
         // return password;
 
     }
